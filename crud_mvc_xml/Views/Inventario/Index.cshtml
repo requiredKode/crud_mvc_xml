@@ -1,0 +1,41 @@
+﻿@model IEnumerable<crud_mvc_xml.Models.Inventario>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div>
+    <h1>
+        @Html.ActionLink("Add Data", "AddEditProject")
+    </h1>
+
+    <table cellpadding="10">
+        <tr>
+            <th>Nombre</th>
+            <th>Proveedor</th>
+            <th>Cant Disp</th>
+            <th>Precio Cost</th>
+            <th>Precio Venta</th>
+            <th>Punto Reorden</th>
+            <th>Manage</th>
+        </tr>
+        @{
+            
+            foreach (var item in Model)
+            {
+                <tr style="text-align:center">
+                    <td>@item.Nombre</td>
+                    <td>@item.ProveedorArticulo</td>
+                    <td>@item.CantidadDisponible</td>
+                    <td>@item.PrecioCosto</td>
+                    <td>@item.PrecioVenta</td>
+                    <td>@item.PuntoReorden</td>
+                    <td>@Html.ActionLink("Edit", "AddEditProject", new { id = @item.ID }) / @Html.ActionLink("Delete", "Delete", new { id = @item.ID })</td>
+                </tr>
+            }
+        }
+    </table>
+
+</div>

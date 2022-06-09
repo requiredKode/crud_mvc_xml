@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Inventarios>
+  <Inventario>
+    <ID>1</ID>
+    <Nombre>Dato1</Nombre>
+    <ProveedorArticulo>D1</ProveedorArticulo>
+    <CantidadDisponible>1</CantidadDisponible>
+    <PrecioCosto>100</PrecioCosto>
+    <PrecioVenta>1000</PrecioVenta>
+    <PuntoReorden>1</PuntoReorden>
+  </Inventario>
+  <Inventario>
+    <ID>2</ID>
+    <Nombre>Dato2</Nombre>
+    <ProveedorArticulo>D2</ProveedorArticulo>
+    <CantidadDisponible>2</CantidadDisponible>
+    <PrecioCosto>200</PrecioCosto>
+    <PrecioVenta>2000</PrecioVenta>
+    <PuntoReorden>2</PuntoReorden>
+  </Inventario>
+</Inventarios>
