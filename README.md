@@ -7,4 +7,4 @@ CRUD XML | MVC
 
 ![image](https://user-images.githubusercontent.com/86175418/172928954-d149607f-b9a7-4043-835e-6942b391217c.png)
 
-
+![crud_xml](https://user-images.githubusercontent.com/86175418/173201529-a127b71c-4a1e-4e0d-832c-98d41666a5b6.png)
